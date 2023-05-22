@@ -1,5 +1,9 @@
-import Image from "next/image";
+import WorldGaming from "@/components/home/WorldGaming";
 
 export default function Home() {
-  return <main className="">home page</main>;
+  return (
+    <main className="homepage">
+      <WorldGaming />
+    </main>
+  );
 }

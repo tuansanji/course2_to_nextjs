@@ -2,8 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
-́* {
-  padding: 0;
+* {
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+.homepage {
+  background-color: #f6f6f6;
+  font-size: 1.6rem;
+  padding-bottom: 8rem;
+  position: relative;
+  top: 9.4rem;
+  width: 100%;
 }
